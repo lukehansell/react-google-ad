@@ -1,0 +1,31 @@
+{
+  "name": "react-google-ad",
+  "version": "1.0.0",
+  "description": "A React component to display a Google Adsense advert.",
+  "main": "GoogleAd.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukehansell/react-google-ad"
+  },
+  "keywords": [
+    "Google",
+    "Advert",
+    "AdSense",
+    "React",
+    "Component"
+  ],
+  "author": "Luke Hansell <lukehansell@hotmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-jest": "^5.3.0",
+    "jest-cli": "^0.4.19",
+    "react": "^0.13.3"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "unmockedModulePathPatterns": ["<rootDir>/node_modules/react"]
+  }
+}
