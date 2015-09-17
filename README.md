@@ -19,6 +19,6 @@ import GoogleAd from 'react-google-ad'
 ```
 
 ### Arguments
-- *client:* the data-ad-client provided by Google
-- *slot:* the data-ad-slot provided by Google
-- *format:* the data-ad-format provided by Google
+- **client:** the data-ad-client provided by Google
+- **slot:** the data-ad-slot provided by Google
+- **format:** the data-ad-format provided by Google

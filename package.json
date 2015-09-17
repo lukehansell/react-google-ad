@@ -1,6 +1,6 @@
 {
   "name": "react-google-ad",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React component to display a Google Adsense advert.",
   "main": "GoogleAd.js",
   "scripts": {
@@ -15,9 +15,10 @@
     "Advert",
     "AdSense",
     "React",
-    "Component"
+    "Component",
+    "react-component"
   ],
-  "author": "Luke Hansell <lukehansell@hotmail.com>",
+  "author": "Luke Hansell <lukehansell@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "babel-jest": "^5.3.0",
