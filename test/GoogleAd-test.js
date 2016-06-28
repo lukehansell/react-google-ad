@@ -8,15 +8,14 @@ describe ('GoogleAd', function(){
 	describeWithDOM ('with all props', function() {
 		it ('renders the ad', function() {
 			const wrapper = mount(
-				<GoogleAd display="inline" 
-					height="20px" 
-					width="30px" 
-					client="foo" 
-					slot="bar" 
+				<GoogleAd display="inline"
+					style={{height:20, width:30}}
+					client="foo"
+					slot="bar"
 					format="baz" />
 			)
 
-			expect(wrapper.html()).to.equal('<ins class="adsbygoogle" style="display:block;height:20px;width:30px;" data-ad-client="foo" data-ad-slot="bar" data-ad-format="baz"></ins>')
+			expect(wrapper.html()).to.equal('<ins class="adsbygoogle" style="display:inline-block;height:20px;width:30px;" data-ad-client="foo" data-ad-slot="bar" data-ad-format="baz"></ins>')
 		})
 	})
 })
