@@ -69,7 +69,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  */
 			client: React.PropTypes.string.isRequired,
 			slot: React.PropTypes.string.isRequired,
-			format: React.PropTypes.string.isRequired
+			format: React.PropTypes.string
 		},
 
 		getDefaultProps: function getDefaultProps() {
