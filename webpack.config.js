@@ -10,4 +10,8 @@ module.exports = {
 	    { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader"}
 	  ]
 	}
+	externals: {
+  		'react': 'react',
+  		'react-dom': 'react-dom'
+	}
 }
